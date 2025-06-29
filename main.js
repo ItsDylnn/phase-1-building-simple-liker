@@ -3,6 +3,11 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
+const modal = document.createElement("div");
+modal.id = "modal";
+modal.classList.add("hidden");
+modal.innerHTML = "<p>This is a modal</p>";
+document.body.appendChild(modal);
 
 
 
